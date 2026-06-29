@@ -21,7 +21,7 @@ const nav = [
 const menu = [
   { emoji: '🍣', name: 'Филадельфия', desc: 'Лосось, сливочный сыр, огурец, авокадо', price: '490 ₽', tag: 'Хит' },
   { emoji: '🍤', name: 'Темпура с креветкой', desc: 'Хрустящие тигровые креветки, спайси-соус', price: '560 ₽', tag: 'Новинка' },
-  { emoji: '🐟', name: 'Сет «Сакура»', desc: '32 кусочка, ассорти из 4 видов роллов', price: '1390 ₽', tag: 'Выгодно' },
+  { emoji: '🐟', name: 'Сет «Атмосфера»', desc: '32 кусочка, ассорти из 4 видов роллов', price: '1390 ₽', tag: 'Выгодно' },
   { emoji: '🥢', name: 'Калифорния', desc: 'Краб, авокадо, икра тобико, огурец', price: '450 ₽', tag: '' },
   { emoji: '🍱', name: 'Унаги маки', desc: 'Копчёный угорь, соус унаги, кунжут', price: '520 ₽', tag: '' },
   { emoji: '🌶️', name: 'Спайси лосось', desc: 'Острый лосось, рис, нори, лук', price: '420 ₽', tag: 'Острое' },
@@ -29,7 +29,7 @@ const menu = [
 
 const reviews = [
   { name: 'Анна К.', text: 'Лучшие роллы в городе! Рыба свежайшая, подача — космос. Заказываем каждую неделю.', stars: 5 },
-  { name: 'Дмитрий В.', text: 'Атмосфера невероятная, неоновые акценты, приятная музыка. Сет «Сакура» — топ за свои деньги.', stars: 5 },
+  { name: 'Дмитрий В.', text: 'Атмосфера невероятная, неоновые акценты, приятная музыка. Сет «Атмосфера» — топ за свои деньги.', stars: 5 },
   { name: 'Марина С.', text: 'Бронировали стол на годовщину — всё прошло идеально. Спасибо за вечер и комплимент от шефа!', stars: 5 },
 ];
 
@@ -49,7 +49,7 @@ const Index = () => {
       <header className="fixed top-0 inset-x-0 z-50 glass">
         <div className="container flex items-center justify-between h-16">
           <button onClick={() => scrollTo('home')} className="font-display text-2xl font-bold tracking-widest">
-            <span className="text-gradient">САКУРА</span>
+            <span className="text-gradient">АТМОСФЕРА</span>
           </button>
           <nav className="hidden md:flex items-center gap-7">
             {nav.map((n) => (
@@ -297,7 +297,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 border-t border-border text-center text-sm text-muted-foreground">
-        <span className="font-display text-lg text-gradient tracking-widest">САКУРА</span> — суши &amp; роллы © 2026
+        <span className="font-display text-lg text-gradient tracking-widest">АТМОСФЕРА</span> — суши &amp; роллы © 2026
       </footer>
 
       {/* Floating call button */}
