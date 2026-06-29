@@ -90,7 +90,7 @@ const Index = () => {
         <div className="container">
           <div className="max-w-2xl animate-fade-in">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-sm text-accent mb-6">
-              <span className="w-2 h-2 rounded-full bg-secondary animate-glow" /> Открыто с 11:00 до 23:00
+              <span className="w-2 h-2 rounded-full bg-secondary animate-glow" /> Открыто с 11:00 до 22:00
             </span>
             <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold leading-[0.95] uppercase">
               Вкус <span className="text-gradient">Японии</span><br />в каждом кусочке
@@ -259,7 +259,7 @@ const Index = () => {
             <div className="mt-8 space-y-5">
               {[
                 ['MapPin', 'Адрес', 'г. Москва, ул. Сакуры, 12'],
-                ['Clock', 'Часы работы', 'Ежедневно с 11:00 до 23:00'],
+                ['Clock', 'Часы работы', 'Ежедневно с 11:00 до 22:00'],
                 ['Phone', 'Телефон', PHONE],
                 ['Mail', 'Почта', 'hello@sakura-sushi.ru'],
               ].map(([icon, t, d]) => (
